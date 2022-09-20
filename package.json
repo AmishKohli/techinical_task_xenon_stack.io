@@ -1,34 +1,21 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-    <title> Signup Form</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-    <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-
-<body>
-    <br>
-    <br>
-    <br>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-3">
-            </div>
-
-            <div class="col-md-6 main">
-
-                <h1> Signup Successful</h1>
-
-            </div>
-
-
-            <div class="col-md-3">
-            </div>
-
-        </div>
-    </div>
-</body>
-
-</html>
+{
+  "name": "xenon_stack_assignment",
+  "version": "1.0.0",
+  "description": "assignment",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "mongoose": "^6.6.1",
+    "nodemailer": "^6.7.8",
+    "nodemon": "^2.0.20",
+    "session": "^0.1.0"
+  }
+}
