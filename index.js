@@ -3,7 +3,6 @@ var bodyParser = require("body-parser");
 var mongoose = require("mongoose");
 var session = require("express-session");
 const app = express();
-const bcrypt = require("bcrypt");
 const nodemailer = require("nodemailer");
 
 app.use(bodyParser.json());
