@@ -144,7 +144,7 @@ app
     });
     res.redirect("index.html");
   })
-  .listen(5000);
+  .listen(process.env.PORT || 3000);
 
 console.log("Listening on PORT 5000");
 
