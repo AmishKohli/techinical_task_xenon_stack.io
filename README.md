@@ -1,3 +1,5 @@
+Note : I have updated the SMTP settings as my college admin escalated about the use of college email for SMTP. My account got blocked. Please consider this new commit. 
+
 # techinical_task_xenon_stack.io
 
 In this Project I have created an app based on NodeJs, ExpressJs, and HTMl.
