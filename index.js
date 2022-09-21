@@ -119,9 +119,10 @@ app.post("/contact", (req, res) => {
     const transporter = nodemailer.createTransport({
       port: 465, // true for 465, false for other ports
       host: "smtp.gmail.com",
+      secure: true,
       auth: {
-        user: "amish.90-cse-19@mietjammu.in",
-        pass: "amish@1234",
+        user: "amishkohli321@gmail.com",
+        pass: "xbcrdapxkosxpxlo",
       },
       secure: true,
     });
